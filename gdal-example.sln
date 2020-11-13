@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "attributes", "attributes\attributes.vcxproj", "{ED129F3D-1A62-4945-82ED-54812057F606}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "polygon-points", "polygon-points\polygon-points.vcxproj", "{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "topology", "topology\topology.vcxproj", "{3D2BB339-54B1-49B0-AA69-2F6A227767E6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Debug|x64.ActiveCfg = Debug|x64
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Debug|x64.Build.0 = Debug|x64
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Debug|x86.Build.0 = Debug|Win32
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Release|x64.ActiveCfg = Release|x64
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Release|x64.Build.0 = Release|x64
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Release|x86.ActiveCfg = Release|Win32
+		{ED129F3D-1A62-4945-82ED-54812057F606}.Release|x86.Build.0 = Release|Win32
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Debug|x64.ActiveCfg = Debug|x64
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Debug|x64.Build.0 = Debug|x64
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Debug|x86.Build.0 = Debug|Win32
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Release|x64.ActiveCfg = Release|x64
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Release|x64.Build.0 = Release|x64
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Release|x86.ActiveCfg = Release|Win32
+		{1AF0C69B-942F-4FBF-9B46-A9F0AEAA2A80}.Release|x86.Build.0 = Release|Win32
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Debug|x64.ActiveCfg = Debug|x64
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Debug|x64.Build.0 = Debug|x64
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Debug|x86.Build.0 = Debug|Win32
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Release|x64.ActiveCfg = Release|x64
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Release|x64.Build.0 = Release|x64
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Release|x86.ActiveCfg = Release|Win32
+		{3D2BB339-54B1-49B0-AA69-2F6A227767E6}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D375310D-7248-4576-9A08-B3197D1E1D33}
+	EndGlobalSection
+EndGlobal
