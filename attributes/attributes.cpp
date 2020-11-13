@@ -33,6 +33,7 @@ int main() {
             out << "Feature #" << i++ << " field count: " << feature->GetFieldCount() << endl;
 
             for (auto&& field : feature) {
+                out << field.GetName() << ":";
                 switch (field.GetType()) {
                 case OFTReal:
                     out << field.GetDouble();
@@ -45,7 +46,7 @@ int main() {
                     out << field.GetAsString();
                     break;
                 }
-                out << ";";
+                out << "; ";
             }
             out << endl;
         }
